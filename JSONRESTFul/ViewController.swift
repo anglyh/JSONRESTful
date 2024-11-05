@@ -47,11 +47,19 @@ class ViewController: UIViewController {
                 print("Nombre de usuario y/o contraseña es incorrecto")
             } else {
                 print("Logeo Exitoso")
-                self.performSegue(withIdentifier: "segueLogeo", sender: nil)
+                self.performSegue(withIdentifier: "segueLogeo", sender: self.users[0])
                 for data in self.users {
                     print("id: \(data.id), nombre: \(data.nombre), email: \(data.email)")
                 }
             }
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "segueLogeo" {
+            let navigationController = segue.destination as! UINavigationController
+            let viewControllerBuscar = navigationController.topViewController as! viewControllerBuscar
+            viewControllerBuscar.usuarioActual = sender as? Users
         }
     }
 

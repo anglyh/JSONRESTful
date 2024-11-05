@@ -17,6 +17,8 @@
 		0B5717662CD94028000D8D0B /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5717652CD94028000D8D0B /* Users.swift */; };
 		0BB4F7812CD9472F0049532D /* viewControllerBuscar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB4F7802CD9472F0049532D /* viewControllerBuscar.swift */; };
 		0BB4F7842CD9491A0049532D /* Peliculas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB4F7832CD9491A0049532D /* Peliculas.swift */; };
+		3B05824D2CD97CAC00595BF5 /* viewControllerAgregar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B05824C2CD97CAC00595BF5 /* viewControllerAgregar.swift */; };
+		3B05824F2CD98C1900595BF5 /* ViewControllerEditarPerfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B05824E2CD98C1900595BF5 /* ViewControllerEditarPerfil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		0B5717652CD94028000D8D0B /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		0BB4F7802CD9472F0049532D /* viewControllerBuscar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewControllerBuscar.swift; sourceTree = "<group>"; };
 		0BB4F7832CD9491A0049532D /* Peliculas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peliculas.swift; sourceTree = "<group>"; };
+		3B05824C2CD97CAC00595BF5 /* viewControllerAgregar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewControllerAgregar.swift; sourceTree = "<group>"; };
+		3B05824E2CD98C1900595BF5 /* ViewControllerEditarPerfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerEditarPerfil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 				0B57175A2CD93E06000D8D0B /* LaunchScreen.storyboard */,
 				0B57175D2CD93E06000D8D0B /* Info.plist */,
 				0BB4F7802CD9472F0049532D /* viewControllerBuscar.swift */,
+				3B05824E2CD98C1900595BF5 /* ViewControllerEditarPerfil.swift */,
+				3B05824C2CD97CAC00595BF5 /* viewControllerAgregar.swift */,
 			);
 			path = JSONRESTFul;
 			sourceTree = "<group>";
@@ -161,7 +167,9 @@
 			files = (
 				0BB4F7842CD9491A0049532D /* Peliculas.swift in Sources */,
 				0B5717662CD94028000D8D0B /* Users.swift in Sources */,
+				3B05824F2CD98C1900595BF5 /* ViewControllerEditarPerfil.swift in Sources */,
 				0B5717542CD93E05000D8D0B /* ViewController.swift in Sources */,
+				3B05824D2CD97CAC00595BF5 /* viewControllerAgregar.swift in Sources */,
 				0B5717502CD93E05000D8D0B /* AppDelegate.swift in Sources */,
 				0B5717522CD93E05000D8D0B /* SceneDelegate.swift in Sources */,
 				0BB4F7812CD9472F0049532D /* viewControllerBuscar.swift in Sources */,
